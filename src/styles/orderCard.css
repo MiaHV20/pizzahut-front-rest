@@ -1,0 +1,47 @@
+.order-card {
+  background: #ffffff;
+  border: 2px solid #d9d9d9;
+  border-radius: 12px;
+  padding: 16px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.08);
+}
+
+.order-card:hover {
+  border-color: #b00000; /* rojo Pizza Hut */
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+}
+
+.order-card.selected {
+  border-color: #c40000;
+  background-color: #fff5f5;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.18);
+}
+
+.order-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #c40000;
+}
+
+.order-customer,
+.order-status {
+  font-size: 0.95rem;
+  margin: 6px 0;
+}
+
+.order-items-label {
+  margin-top: 12px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.order-items-list {
+  margin-top: 6px;
+  padding-left: 22px;
+  font-size: 0.85rem;
+  line-height: 1.4rem;
+}
