@@ -8,7 +8,7 @@ import ordersMock from "../mocks/orders.mock";
 function OrdersPage() {
   
   // mock temporal hasta conectar API
-  const [orders, setOrders] = useState(ordersMock);
+  const [orders, _setOrders] = useState(ordersMock);
 
   // pedido seleccionado
   const [selectedOrderId, setSelectedOrderId] = useState<string | null>(null);
